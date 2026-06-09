@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/Image\ \(7\).jpeg");
+    background-Picture: url("../Pictures/Picture\ \(7\).jpeg");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@ header {
         font-size: 18px;
     }
 
-    .title-services {
+    .title-Sculpture {
         text-align: left;
         height: 100%;
 background-position: center;
