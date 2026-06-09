@@ -100,9 +100,9 @@ background-size: cover;
 }
 
 .container {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    display: block;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
 
 }
 
@@ -160,10 +160,15 @@ background-size: cover;
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
     .blok {
         flex-basis: 80%;
-        /* Zorgt ervoor dat de blokken onder elkaar worden geplaatst op kleinere schermen */
     }
 }
 

@@ -47,7 +47,7 @@ Contactheader{
 }
 header {
     color: #e4cbcb;
-    font-size:7.5vw;
+    font-size: clamp(1.5rem, 8vw, 4rem);
 
     .title {
         text-align: left;
@@ -84,6 +84,13 @@ p {
     padding-left: 0.5em;
     text-align: center;
 }
+
+@media screen and (max-width: 699px) {
+    .about-me-block img[src="../Pictures/Picture6.jpg"] {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 700px) {
     p {
         font-size: 0.4em;

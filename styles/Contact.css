@@ -63,9 +63,7 @@ background-size: cover;
 
 /* Layout voor tekst en afbeelding naast elkaar */
 .container {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    display: block;
     margin: 20px;
     padding-top: 100px;
 }
@@ -134,10 +132,15 @@ background-size: cover;
 }
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+    }
+
     .blok {
-        flex-basis: 100%;
-        /* Zorgt ervoor dat de blokken onder elkaar worden geplaatst op kleinere schermen */
+        flex: 1 1 25%;
     }
 }
 

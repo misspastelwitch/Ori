@@ -19,6 +19,15 @@
     display: block;
   }
 
+  h2 {
+    font-size: 1.5rem;
+    color: #e4cbcb;
+    line-height: 1;
+    font-weight: 400;
+    text-align: left;
+    padding: 0 0.5em;
+  }
+
         header {
             .back-home {
                 color: #c5827b;
@@ -54,9 +63,9 @@
           /* Each image group becomes its own slideshow */
           .column {
             position: relative;
-            width: 60%;
-            max-width: 60%;
-            flex: 0 0 60%;
+            width: 100%;
+            max-width: 100%;
+            flex: 0 0 100%;
             margin: 0 auto 1.5rem auto;
             padding: 0;
             display: block;
@@ -80,6 +89,14 @@
             background: #8d3127;
           }
           
+          @media (min-width: 768px) {
+            .column {
+              width: 60%;
+              max-width: 60%;
+              flex: 0 0 60%;
+            }
+          }
+
           /* Responsive layout - makes a two column-layout instead of four columns */
           @media screen and (max-width: 800px) {
             .column {
