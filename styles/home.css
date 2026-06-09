@@ -1,18 +1,34 @@
+body {
+    min-height: 100vh;
+    background-color: #8d3127;
+    background-image:
+        linear-gradient(
+            to bottom,
+            rgba(141, 49, 39, 0.00) 0%,
+            rgba(141, 49, 39, 0.2) 10%,
+            rgba(141, 49, 39, 1) 15%,
+            rgba(141, 49, 39, 0.9) 60%,
+            rgba(141, 49, 39, 1) 75%,
+            rgba(141, 49, 39, 1) 90%
+        ),
+        url("../Pictures/lyingdown.jpg");
+    background-position: 100% 15%, top center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, 100% auto;
+}
+
 header {
-    color: rgba(112, 138, 102, 0.85);
-    font-size:7.5vw;
+    color: rgba(255, 254, 254, 0.85);
+    font-size: 7.5vw;
 
     .title {
         text-align: left;
-        background-Picture: url(../Pictures/header.jpg);
-        height: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+        min-height: 45vh;
+        background: none;
     }
 
     .profession {
-        color: rgba(57, 70, 52, 0.92);
+        color: #580b02;
         font-size: 28px;
         line-height: 1.6;
         text-align: right;

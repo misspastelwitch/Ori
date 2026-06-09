@@ -1,7 +1,7 @@
 body {
     font-family: "Inter", arial, sans-serif;
     margin: 0 auto;
-    background-color:#e3a9a2;
+    background-color:#8d3127;
     padding-top: 0px;
     padding-right: 0%;
     padding-left: 0%;
@@ -20,7 +20,7 @@ a:link {
     
     /* Visited link */
     a:visited {
-    color: #89514b;
+    color: #e3a9a2;
     }
     a:is(:hover, :focus-visible) {
         outline: none;
@@ -33,14 +33,14 @@ a:link {
 }
 
 .menu ul li a:hover {
-    color: #1d490b;
+    color: #ffffff;
 }
 
 Contactheader{
     color: #e3a9a2;
 }
 header {
-    color: #1d490b;
+    color: #e4cbcb;
     font-size:7.5vw;
 
     .title {
@@ -53,7 +53,7 @@ background-size: cover;
     }
 
     .profession {
-        color: rgba(112, 138, 102, 0.92);
+        color: #c5827b;
         font-size: 0.5em;
         line-height: 1.6;
         text-align: right;
@@ -75,14 +75,8 @@ p {
         text-align: left;
     }
   }
-.signoff {
-    font-size: 0.5em;
-}
-.xoxo {
-    color: #1d490b;
-}
 .back-home {
-    color: #c5827b;
+    color: #ffecec;
     margin-top: 25px;
     display: inline-block; /* Zorgt dat de margin werkt zoals verwacht bij inline-elementen */
     text-decoration: none;
@@ -97,7 +91,7 @@ p {
 }
 
 .website-link {
-    color: #c5827b;
+    color: #f6d7d3;
     display: inline-block;
     text-decoration: none;
     font-weight: 800;
@@ -109,7 +103,7 @@ p {
     transform: scale(1.1);
 }
 footer {
-    color: c5827b;
+    color: #c5827b;
     padding-right: 50px;
     text-align: right;
     font-size: 1em;

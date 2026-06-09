@@ -1,7 +1,7 @@
 body {
     font-family: "Inter", arial, sans-serif;
     margin: 0 auto;
-    background-color: rgba(57, 70, 52, 0.92);
+    background-color: #8d3127;
     padding-top: 0px;
     padding-right: 2%;
     padding-left: 2%;
@@ -10,7 +10,7 @@ body {
     line-height: 1;
     /* Unvisited link */
 a:link {
-    color: #e3a9a2;
+    color: #a86861;
     transition-duration: .4s;
     text-align: right;
     justify-content: right;
@@ -20,7 +20,7 @@ a:link {
     
     /* Visited link */
     a:visited {
-    color: #a86861;
+    color: #e3a9a2;
     }
     a:is(:hover, :focus-visible) {
         outline: none;
@@ -29,7 +29,7 @@ a:link {
 }
 
 header {
-    color: rgba(112, 138, 102, 0.85);
+    color: #e4cbcb;
     font-size:7.5vw;
 
     .title {
@@ -41,15 +41,15 @@ background-size: cover;
     }
 
     .profession {
-        color: rgba(57, 70, 52, 0.92);
+        color: #c5827b;
         font-size: 0.5em;
         line-height: 1.6;
         text-align: right;
         text-shadow: none;
         padding-right: 1em;
+        padding-bottom: 1rem;
     }
     .professionindex {
-        color: rgba(255, 255, 255, 0.92);
         font-size: 0.5em;
         line-height: 1.6;
         text-align: right;
@@ -127,9 +127,19 @@ background-size: cover;
 
 .about-me-block {
     margin: 0;
-    max-width: 80%;
+    margin-top: 2rem;
+    max-width: 100%;
     text-align: left;
     font-size: calc(1rem + 6vw);
+}
+
+.about-me-right {
+    width: 100%;
+    max-width: none;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 0;
+    color: #e3a9a2;
 }
 
 .socials-block {

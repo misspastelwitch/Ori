@@ -51,23 +51,33 @@
         }
     
           
-          /* Create four equal columns that sits next to each other */
+          /* Each image group becomes its own slideshow */
           .column {
-            -ms-flex: 25%; /* IE10 */
-            flex: 25%;
-            max-width: 25%;
-            padding: 0 4px;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            gap: 8px;
+            position: relative;
+            width: 60%;
+            max-width: 60%;
+            flex: 0 0 60%;
+            margin: 0 auto 1.5rem auto;
+            padding: 0;
+            display: block;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #f6f3ee;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
           }
           
           .column img {
-            margin-top: 8px;
-            vertical-align: middle;
-            width: calc(50% - 4px);
-            flex: 0 0 calc(50% - 4px);
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: center;
+            display: block;
+            margin-top: 0;
+            opacity: 0;
+            transition: opacity 1s ease;
+            background: #f6f3ee;
           }
           
           /* Responsive layout - makes a two column-layout instead of four columns */
