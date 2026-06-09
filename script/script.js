@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             img.style.transition = 'opacity 1s ease';
             img.style.display = 'block';
             img.style.borderRadius = '12px';
-            img.style.backgroundColor = '#f6f3ee';
+            img.style.backgroundColor = '#8d3127';
         });
 
         let currentIndex = 0;

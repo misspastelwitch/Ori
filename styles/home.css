@@ -5,10 +5,8 @@ body {
         linear-gradient(
             to bottom,
             rgba(141, 49, 39, 0.00) 0%,
-            rgba(141, 49, 39, 0.2) 10%,
-            rgba(141, 49, 39, 1) 15%,
-            rgba(141, 49, 39, 0.9) 60%,
-            rgba(141, 49, 39, 1) 75%,
+            rgba(141, 49, 39, 0.2) 20%,
+            rgba(141, 49, 39, 1) 30%,
             rgba(141, 49, 39, 1) 90%
         ),
         url("../Pictures/lyingdown.jpg");

@@ -88,7 +88,7 @@ background-size: cover;
     right: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(112, 138, 102, 0.92);
+    background-color: rgba(227, 169, 162, 0.75);
     transform: translateX(100%);
     transition: transform 0.4s ease-in-out;
     z-index: 9;
@@ -110,7 +110,7 @@ background-size: cover;
 
     ul li a {
         text-decoration: none;
-        color: #c5827b;
+        color: #8d3127;
         font-size: calc(1rem + 8vw);
         transition: color 0.3s;
     }
@@ -121,7 +121,7 @@ background-size: cover;
 }
 
 .menu ul li a:hover {
-    color: #1d490b;
+    color: #ffffff;
 }
 
 
@@ -130,7 +130,7 @@ background-size: cover;
     margin-top: 2rem;
     max-width: 100%;
     text-align: left;
-    font-size: calc(1rem + 6vw);
+    font-size: calc(1rem + 4vw);
 }
 
 .about-me-right {
@@ -146,12 +146,12 @@ background-size: cover;
     max-width: 80%;
 
     h2 {
-        font-size: calc(1rem + 6vw);
+        font-size: calc(1rem + 4vw);
     }
 }
 
 footer {
-    color: c5827b;
+    color: #c5827b;
     padding-right: 50px;
     text-align: right;
     font-size: 16px;

@@ -29,13 +29,19 @@ a:link {
 }
 /* Verborgen menu */
 .menu {
-    background-color: rgba(112, 138, 102, 0.92);
+    background-color: rgba(227, 169, 162, 0.75);
+}
+
+.menu ul li a {
+    color: #8d3127;
 }
 
 .menu ul li a:hover {
     color: #ffffff;
 }
-
+.menu ul li {
+    color: #8d3127;
+}
 Contactheader{
     color: #e3a9a2;
 }
@@ -45,11 +51,20 @@ header {
 
     .title {
         text-align: left;
-        height: 100%;
-        background-Picture: url(../Pictures/cover.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+        min-height: 45vh;
+        background-image:
+            linear-gradient(
+                to bottom,
+                rgba(141, 49, 39, 0.00) 0%,
+                rgba(141, 49, 39, 0.12) 18%,
+                rgba(141, 49, 39, 0.45) 35%,
+                rgba(141, 49, 39, 0.92) 60%,
+                rgba(141, 49, 39, 1.00) 100%
+            ),
+            url("../Pictures/Picture2.jpg");
+        background-position: top center, top center;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
     }
 
     .profession {

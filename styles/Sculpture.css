@@ -51,11 +51,15 @@ background-size: cover;
 
 /* Verborgen menu */
 .menu {
-background-color: rgba(112, 138, 102, 0.92);
+    background-color: rgba(227, 169, 162, 0.75);
+}
+
+.menu ul li a {
+    color: #8d3127;
 }
 
 .menu ul li a:hover {
-color: #1d490b;
+color: #ffffff;
 }
 
 
@@ -84,11 +88,15 @@ background-size: cover;
 
 /* Verborgen menu */
 .menu {
-    background-color: rgba(112, 138, 102, 0.92);
+    background-color: rgba(227, 169, 162, 0.75);
+}
+
+.menu ul li a {
+    color: #8d3127;
 }
 
 .menu ul li a:hover {
-    color: #1d490b;
+    color: #ffffff;
 }
 
 .container {
