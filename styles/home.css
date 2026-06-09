@@ -1,0 +1,22 @@
+header {
+    color: rgba(112, 138, 102, 0.85);
+    font-size:7.5vw;
+
+    .title {
+        text-align: left;
+        background-image: url(../images/header.jpeg);
+        height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    }
+
+    .profession {
+        color: rgba(57, 70, 52, 0.92);
+        font-size: 28px;
+        line-height: 1.6;
+        text-align: right;
+        text-shadow: none;
+    }
+
+}

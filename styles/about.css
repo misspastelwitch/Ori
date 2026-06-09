@@ -1,0 +1,115 @@
+body {
+    font-family: "Inter", arial, sans-serif;
+    margin: 0 auto;
+    background-color:#e3a9a2;
+    padding-top: 0px;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-bottom: 5%;
+    color: #c5827b;
+    line-height: 1;
+    /* Unvisited link */
+a:link {
+    color: #a86861;
+    transition-duration: .4s;
+    text-align: right;
+    justify-content: right;
+    text-decoration: none;
+    display: inline-block;
+    }
+    
+    /* Visited link */
+    a:visited {
+    color: #89514b;
+    }
+    a:is(:hover, :focus-visible) {
+        outline: none;
+        color: #ffffff;
+    }
+}
+/* Verborgen menu */
+.menu {
+    background-color: rgba(112, 138, 102, 0.92);
+}
+
+.menu ul li a:hover {
+    color: #1d490b;
+}
+
+bookingsheader{
+    color: #e3a9a2;
+}
+header {
+    color: #1d490b;
+    font-size:7.5vw;
+
+    .title {
+        text-align: left;
+        height: 100%;
+        background-image: url(../images/cover.JPG);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    }
+
+    .profession {
+        color: rgba(112, 138, 102, 0.92);
+        font-size: 0.5em;
+        line-height: 1.6;
+        text-align: right;
+        text-shadow: none;
+        padding-right: 1em;
+    }
+
+}
+p {
+    font-size: 0.6em;
+    padding-left: 0.5em;
+    text-align: center;
+}
+@media screen and (min-width: 700px) {
+    p {
+        font-size: 0.4em;
+        padding-left: 2em;
+        text-align: left;
+    }
+  }
+.signoff {
+    font-size: 0.5em;
+}
+.xoxo {
+    color: #1d490b;
+}
+.back-home {
+    color: #c5827b;
+    margin-top: 25px;
+    display: inline-block; /* Zorgt dat de margin werkt zoals verwacht bij inline-elementen */
+    text-decoration: none;
+    transition: transform 0.4s ease-in-out;
+    font-size: 18px;
+    padding-left: 2em;
+    margin: 0;
+}
+
+.back-home:hover {
+    transform: scale(1.1);
+}
+
+.website-link {
+    color: #c5827b;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    transition: transform 0.4s ease-in-out;
+}
+
+
+.website-link:hover {
+    transform: scale(1.1);
+}
+footer {
+    color: c5827b;
+    padding-right: 50px;
+    text-align: right;
+    font-size: 1em;
+}
