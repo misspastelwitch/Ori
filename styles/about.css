@@ -89,6 +89,9 @@ p {
     .about-me-block img[src="../Pictures/Picture6.jpg"] {
         display: none;
     }
+    .about-me-block img[src="../Pictures/Picture23.jpg"] {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 700px) {
